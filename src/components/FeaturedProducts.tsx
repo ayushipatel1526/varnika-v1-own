@@ -110,6 +110,7 @@ const FeaturedProducts = () => {
                   <Button 
                     className="w-full bg-boutique-teal hover:bg-boutique-teal-dark transition-colors"
                     variant="default"
+                    onClick={() => navigate(`/product/${product.id}`)}
                   >
                     View Details
                   </Button>

@@ -236,9 +236,9 @@ const Collection = () => {
                   
                   <Button 
                     className="w-full" 
-                    onClick={() => setSelectedProduct(product)}
+                    onClick={() => navigate(`/product/${product.id}`)}
                   >
-                    Quick Add
+                    View Details
                   </Button>
                 </div>
               </CardContent>

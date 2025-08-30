@@ -357,8 +357,8 @@ export const AdminProducts: React.FC<AdminProductsProps> = ({ onStatsUpdate }) =
                   <Input
                     type="number"
                     step="0.01"
-                    value={formData.price}
-                    onChange={(e) => setFormData(prev => ({ ...prev, price: Number(e.target.value) }))}
+                    value={formData.price || ''}
+                    onChange={(e) => setFormData(prev => ({ ...prev, price: e.target.value ? Number(e.target.value) : 0 }))}
                     required
                   />
                 </div>
@@ -368,15 +368,15 @@ export const AdminProducts: React.FC<AdminProductsProps> = ({ onStatsUpdate }) =
                     type="number"
                     step="0.01"
                     value={formData.original_price || ''}
-                    onChange={(e) => setFormData(prev => ({ ...prev, original_price: e.target.value ? Number(e.target.value) : undefined }))}
+                    onChange={(e) => setFormData(prev => ({ ...prev, original_price: e.target.value ? Number(e.target.value) : 0 }))}
                   />
                 </div>
                 <div>
                   <label className="text-sm font-medium">Stock Quantity</label>
                   <Input
                     type="number"
-                    value={formData.stock_quantity}
-                    onChange={(e) => setFormData(prev => ({ ...prev, stock_quantity: Number(e.target.value) }))}
+                    value={formData.stock_quantity || ''}
+                    onChange={(e) => setFormData(prev => ({ ...prev, stock_quantity: e.target.value ? Number(e.target.value) : 0 }))}
                   />
                 </div>
               </div>
