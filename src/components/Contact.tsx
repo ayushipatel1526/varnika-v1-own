@@ -104,9 +104,9 @@ const Contact = () => {
                     <div>
                       <h4 className="font-medium text-card-foreground">Location</h4>
                       <p className="text-muted-foreground">
-                        123 Fashion Street<br />
-                        Designer District<br />
-                        Mumbai, Maharashtra 400001
+                        36, Shivdhara Soc,Kankrol Road<br />
+                        Near Shourabh Sanskar School<br />
+                        Himmatnagar, Gujarat 383001
                       </p>
                     </div>
                   </div>
@@ -115,7 +115,7 @@ const Contact = () => {
                     <Phone className="h-6 w-6 text-boutique-teal mt-1 flex-shrink-0" />
                     <div>
                       <h4 className="font-medium text-card-foreground">Phone</h4>
-                      <p className="text-muted-foreground">+91 98765 43210</p>
+                      <p className="text-muted-foreground">+91 9875284297</p>
                     </div>
                   </div>
 
@@ -123,7 +123,7 @@ const Contact = () => {
                     <Mail className="h-6 w-6 text-boutique-teal mt-1 flex-shrink-0" />
                     <div>
                       <h4 className="font-medium text-card-foreground">Email</h4>
-                      <p className="text-muted-foreground">hello@boutique.com</p>
+                      <p className="text-muted-foreground">ayushipatel1526@gmail.com</p>
                     </div>
                   </div>
 
@@ -132,8 +132,8 @@ const Contact = () => {
                     <div>
                       <h4 className="font-medium text-card-foreground">Store Hours</h4>
                       <p className="text-muted-foreground">
-                        Monday - Saturday: 10:00 AM - 8:00 PM<br />
-                        Sunday: 11:00 AM - 6:00 PM
+                        Monday - Saturday: 10:00 AM - 7:00 PM<br />
+                        Sunday: Closed 
                       </p>
                     </div>
                   </div>

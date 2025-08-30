@@ -17,8 +17,12 @@ const Footer = () => {
               that celebrate the artistry of fine craftsmanship.
             </p>
             <div className="flex space-x-4">
-              <Facebook className="h-6 w-6 text-white/60 hover:text-white cursor-pointer transition-colors" />
-              <Instagram className="h-6 w-6 text-white/60 hover:text-white cursor-pointer transition-colors" />
+              <a href="https://www.facebook.com/profile.php?id=61579997941792" target="_blank" rel="noopener noreferrer">
+                <Facebook className="h-6 w-6 text-white/60 hover:text-white cursor-pointer transition-colors" />
+              </a>
+              <a href="https://www.instagram.com/varnika_designer_studio/" target="_blank" rel="noopener noreferrer">
+                <Instagram className="h-6 w-6 text-white/60 hover:text-white cursor-pointer transition-colors" />
+              </a>
               <Twitter className="h-6 w-6 text-white/60 hover:text-white cursor-pointer transition-colors" />
             </div>
           </div>
@@ -48,7 +52,7 @@ const Footer = () => {
 
         <div className="border-t border-white/20 mt-8 pt-8 text-center">
           <p className="text-white/60">
-            © 2024 Varnika Boutique. All rights reserved. Crafted with excellence.
+            © 2025 Varnika Designer Studio. All rights reserved. Crafted with excellence.
           </p>
         </div>
       </div>

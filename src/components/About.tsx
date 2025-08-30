@@ -15,7 +15,7 @@ const About = () => {
     },
     {
       icon: <Award className="h-8 w-8 text-boutique-teal" />,
-      title: "Award-Winning Quality",
+      title: "Certified Designer",
       description: "Recognized for excellence in design and craftsmanship, we maintain the highest standards in every creation."
     }
   ];
@@ -61,7 +61,7 @@ const About = () => {
           <div className="relative">
             <div className="aspect-square rounded-2xl overflow-hidden shadow-2xl">
               <img 
-                src="https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?w=600&h=600&fit=crop" 
+                src="/assets/WhatsApp Image 2025-08-30 at 11.05.52_c9acc003.jpg" 
                 alt="Boutique Interior"
                 className="w-full h-full object-cover"
               />
